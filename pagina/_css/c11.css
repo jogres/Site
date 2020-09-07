@@ -1,0 +1,26 @@
+.row11{
+	vertical-align:top;
+	height:auto;
+	!important;
+}
+.list11{
+	display:none;
+}
+.show11{
+	display:none;
+	
+}
+.hide11:target + .show11{
+	display:inline;
+}
+.hide11:target{
+	display:none;
+}
+.hide11:target ~ .list{
+	display:inline;
+}
+@media print{
+	.hide11, .show11{
+		display:none;
+	}
+}

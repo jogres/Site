@@ -1,0 +1,26 @@
+.row16{
+	vertical-align:top;
+	height:auto;
+	!important;
+}
+.list16{
+	display:none;
+}
+.show16{
+	display:none;
+	
+}
+.hide16:target + .show16{
+	display:inline;
+}
+.hide16:target{
+	display:none;
+}
+.hide16:target ~ .list{
+	display:inline;
+}
+@media print{
+	.hide16, .show16{
+		display:none;
+	}
+}

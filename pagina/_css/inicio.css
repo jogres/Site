@@ -1,0 +1,51 @@
+@charset "UTF-8";
+figure#foto-perfil{
+	position:absolute;
+	width:100px;
+	right:5px;
+	border: 8px solid rgba(128,0,0,.5);
+	box-shadow: 1px 1px 4px black;
+	
+}
+figure#foto-perfil img{		
+	width:100%;
+	right:100%;
+}
+div#corpo{
+	width:auto;	
+	margin: auto auto 40px auto;
+	padding: 10px ;
+	background-color:rgba(128,0,0,.5);
+	
+}
+
+
+.inform {
+	width:700px;	
+	margin: 20px auto 20px auto;
+	padding: 10px ;
+	background-color:rgba(128,0,0,.5);
+}
+.inform p{
+	color: #00FF00;
+	text-shadow:0px 0px 10px rgba(240,248,255,.9 );
+	text-align: justify; 
+	text-indent: 50px;
+	font-family:arial;
+	font-size:5;
+}
+article#eu{
+	
+	width:700px;	
+	margin: 20px auto 20px auto;
+	padding: 10px ;
+	background-color:rgba(128,0,0,.5);
+}
+article#eu p{
+	color: #00FF00;
+	text-shadow:0px 0px 10px rgba(240,248,255,.9 );
+	text-align: center; 
+	text-indent: 50px;
+	font-family:arial;
+	font-size:5;
+}

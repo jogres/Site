@@ -1,0 +1,26 @@
+.row9{
+	vertical-align:top;
+	height:auto;
+	!important;
+}
+.list9{
+	display:none;
+}
+.show9{
+	display:none;
+	
+}
+.hide9:target + .show9{
+	display:inline;
+}
+.hide9:target{
+	display:none;
+}
+.hide9:target ~ .list{
+	display:inline;
+}
+@media print{
+	.hide9, .show9{
+		display:none;
+	}
+}
